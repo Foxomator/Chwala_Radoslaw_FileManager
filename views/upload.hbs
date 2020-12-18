@@ -1,0 +1,14 @@
+<div id="header">
+    <a href="./upload">UPLOAD</a>
+    <a href="./filemanager">FILEMANAGER</a>
+    <a href="./info">INFO</a>
+</div>
+<div class="wrapper">
+    <div id="menu">MULTIUPLOAD</div>
+    <div id="main">
+        <form enctype="multipart/form-data" method="POST" action="/upload">
+            <input type="file" required accept="*/*" name="filetoupload" multiple>
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+</div>

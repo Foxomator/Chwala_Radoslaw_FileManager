@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "formidable": "^1.2.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "chwala_radoslaw_filemanager",
+  "version": "1.0.0",
+  "description": "Filemanager :DDDDDDD aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "Radek Chwala 3id",
+  "license": "ISC"
+}
